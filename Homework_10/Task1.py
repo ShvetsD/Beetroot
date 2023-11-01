@@ -1,7 +1,7 @@
 def oops():
     try:
         raise IndexError()
-    except IndexError as error:
+    except IndexError:
         print('Index error in oops() function')
         raise
 
